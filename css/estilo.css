@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    flex-flow: row wrap;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.logo {
+    flex: 20%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo h1 {
+    font-family: 'Lobster', cursive;
+    color: slateblue;
+    font-size: 34px;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: slateblue;
+    font-size: 26px;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: red;
+    border-top: 4px solid blueviolet;
+}
+
+#botao-fale-conosco {
+    background-color: black;
+    color: aqua;
+    border-radius: 7px;
+    margin-right: 13%;
+    margin-left: 5%;
+    padding: 10px 16px;
+}
+
+#botao-fale-conosco:hover {
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.header {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+.headline h2 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    margin: 0;
+    color: black;
+
+}
+
+.headline p {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.botao-contrate {
+    color: skyblue;
+    display: inline-block;
+    background-color: black;
+    padding: 20px 25px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.botao-contrate:hover {
+    background-color: slateblue;
+    color: white;
+    font-weight: 900;
+}
+
+.img-headline {
+    margin-right: 5%;
+    flex: 40%;
+    text-align: center;
+}
+
+.img-fundo {
+    max-width: 100%;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    left: 50px;
+    z-index: -1;
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    text-align: center;
+    width: 90%;
+    padding: 3%;
+
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    color: slateblue;
+}
+
+.serviços {
+    display: inline-block;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    display: inline-block;
+    margin: 1%;
+    width: 30%;
+    border: 1px solid slateblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.texto-alternativo {
+    display: none;
+}
+
+.card:hover {
+    background-color: slateblue;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .texto-card {
+    display: none;
+}
+
+.card:hover .texto-alternativo {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    height: 510px;
+    background-image: linear-gradient(180deg, blueviolet, slateblue, black);
+    border-top: 7px groove palevioletred;
+
+}
+
+.logo-rodape h1 {
+    padding: 30px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 70px;
+}
+
+.logo-rodape p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+
+.logo-desenvolvedor {
+    background-color: black;
+    color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border: 2px groove yellow;
+    border-radius: 20px;
+    padding: 10px;
+    width: 14%;
+    margin-left: 5%;
+    margin-top: 80px;
+    text-align: left;
+}
+
+footer #desenvolvido {
+    margin-bottom: 2px;
+}
+
+footer hr {
+    color: aqua;
+    margin: 0;
+}
+
+footer #desenvolvedor {
+    text-align: right;
+    line-height: 0%;
+    font-family: cursive;
+    margin-top: 14px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 1px red;
+}
+
+footer .whats {
+    position: fixed;
+    bottom: 10px;
+    right: 1px;
+}
